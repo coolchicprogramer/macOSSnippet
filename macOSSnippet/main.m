@@ -7,11 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Helper.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+//        NSLog(@"%@", [Helper identifyOriginalPath:@"/Users/user/Documents/alias"]);
+        NSLog(@"%@", [Helper newIdentifyOriginalPath:@"/Users/user/Documents/alias"]);
     }
     return 0;
 }
